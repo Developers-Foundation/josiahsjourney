@@ -1,7 +1,7 @@
 {
-  "name": "DevFound Western Chapter",
-  "description": "This is the western chapter website",
-  "repository": "https://github.com/Developers-Foundation/western-chapter.git",
-  "logo": "https://developersfoundation.ca/assets/img/logo.png",
+  "name": "Josiah's journey",
+  "description": "",
+  "repository": "https://github.com/Developers-Foundation/josiahsjourney.git",
+  "logo": "",
   "keywords": ["php", "heroku", "blank", "template", "nob", "western"]
 }

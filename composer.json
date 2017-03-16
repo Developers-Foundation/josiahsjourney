@@ -1,12 +1,12 @@
 {
-  "name": "developersfoundation/blank",
-  "description": "blank project",
+  "name": "developersfoundation/josiahsjourney",
+  "description": "Josiah's Journey",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Harrison Chow",
-      "email": "harrison@developersfoundation.ca"
+      "name": "Paul Salvatore",
+      "email": "paul@developersfoundation.ca"
     }
   ],
 
