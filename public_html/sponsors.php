@@ -49,7 +49,10 @@
         <?php
             $page = "index-page";
             $hasGmap = true;
-        include_once "html_elements/lander.php";
+            include_once "html_elements/lander.php";
+
+
+            include_once "html_elements/footer.php"
 
         ?>
 

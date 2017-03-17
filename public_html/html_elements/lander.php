@@ -29,7 +29,7 @@
                     <a href="sickkids.php">SickKids</a>
                 </li>
                 <li>
-                    <a href="#">Donate</a>
+                    <a href="donate.php">Donate</a>
                 </li>
             </ul>
         </div>

@@ -1,12 +1,4 @@
 
-<!--
-
-This creates a simple mailer modal module
-TODO: go into mailer.php and input your SendGrid API key
-TODO: go into public_html/assets/js/nob.js and modify who the message is being sent to.
-
--->
-
 <div class="modal fade" id="ContactUs" tabindex="-1" role="dialog" aria-labelledby="Contact Us"
      aria-hidden="true">
     <div class="modal-dialog">

@@ -25,10 +25,22 @@ function scrollEvent(){
     }
 }
 
+function smoothScroll(id){
+    console.log('think');
+    console.log($(id).offset().top);
+
+    $('html, body').animate({
+        scrollTop: -$(id).offset().top
+    }, 1500);
+}
 
 $(function jQueryScroll (){
     $(window).scroll(function() {
         scrollEvent();
+    });
+    
+    $('#top').on('click', function () {
+        smoothScroll('#top');
     });
 });
 
