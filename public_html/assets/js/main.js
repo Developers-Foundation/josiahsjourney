@@ -1,7 +1,12 @@
 
 // The fractional vh size of the lander
 var LANDER_HEIGHT = 0.3;
+var MONEY_RAISED = 183732;
 
+
+
+
+/**********************************************SCROLL******************************************************************/
 
 function scrollEvent(){
     var scroll = $(window).scrollTop();
@@ -28,3 +33,42 @@ $(function jQueryScroll (){
 });
 
 scrollEvent();
+
+/**********************************************      ******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************JQUERY******************************************************************/
+
+$(function () {
+
+    $('.count').each(function () {
+        $(this).prop('total',0).animate({
+            total: MONEY_RAISED
+        }, {
+            duration: 4500,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
+
+
+
+});

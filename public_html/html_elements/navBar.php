@@ -12,16 +12,16 @@
         <div class="collapse navbar-collapse" id="navTarget">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#">About Josiah</a>
+                    <a href="aboutJosiah.php">About Josiah</a>
                 </li>
                 <li>
-                    <a href="#">The Walk</a>
+                    <a href="theWalk.php">The Walk</a>
                 </li>
                 <li>
-                    <a href="#">SickKids</a>
+                    <a href="sickkids.php">SickKids</a>
                 </li>
                 <li>
                     <a href="#">Donate</a>
@@ -31,4 +31,3 @@
     </div>
 </nav>
 
-<!--<div id="spacer"></div>-->
