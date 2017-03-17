@@ -7,6 +7,29 @@
 .spacer {
   height: 30vh;
 }
+/**********************************************NAVBAR.PHP**************************************************************/
 .navbar {
   padding: 2vh;
+  text-transform: lowercase;
+  -webkit-transition: padding .7s;
+  -moz-transition: padding .7s;
+  transition: padding .7s;
+}
+/************************************************WALK.PHP**************************************************************/
+.theWalk {
+  width: 100%;
+  height: 70vh;
+  background-image: url('//placebear.com/1000/600');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 7vh;
+}
+.theWalk .walkContent {
+  background-color: white !important;
+  opacity: 0.5;
+  height: 56vh;
+}
+/***********************************************ABOUT.PHP**************************************************************/
+.landerAbout {
+  height: 60vh;
 }
