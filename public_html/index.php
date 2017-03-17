@@ -49,6 +49,14 @@
         <?php
             $page = "index-page";
             $hasGmap = true;
+            include_once "html_elements/lander.php";
+            include_once "html_elements/navBar.php";
+            include "html_elements/faq.php";
+            include "html_elements/faq.php";
+            include "html_elements/faq.php";
+            include "html_elements/faq.php";
+            include "html_elements/faq.php";
+            include "html_elements/faq.php";
 
         ?>
 
@@ -56,6 +64,7 @@
     <!--=========================================== JS SCRIPTS ==========================================-->
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
