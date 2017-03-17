@@ -52,7 +52,7 @@
             include_once "html_elements/lander.php";
             include "html_elements/about.php";
             include_once "html_elements/walk.php";
-            include "html_elements/about.php";
+            include "html_elements/events.php";
             include_once "html_elements/footer.php"
 
         ?>

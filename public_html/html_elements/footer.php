@@ -6,6 +6,7 @@
 <nav class="footer">
 
     <div class="row footerRow">
+
         <div class="col-sm-6 insideCol">
             <ul class="h6 footer-hover">
                 <li class="inset righter"><a href="#">donate</a></li>
@@ -14,8 +15,9 @@
             </ul>
         </div>
 
+
         <div class="col-sm-6 insideCol">
-           <h4 class="inset">Our next walk is yet to be announced, find out more information here!</h4>
+           <h4 class="inset"><a href="theWalk.php">Our next walk is yet to be announced, find out more information here!</a></h4>
         </div>
 
         <div class="col-sm-12">
