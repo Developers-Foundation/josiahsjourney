@@ -1,5 +1,6 @@
 <div class="header header-filter">
-    <img src="//placebear.com/1500/200"  class="img-responsive landerImage">
+<!--    <img src="//placebear.com/1500/200"  class="img-responsive landerImage">-->
+    <img src="http://placehold.it/1500X200/87ceeb"  class="img-responsive landerImage">
     <div class="spacer"></div>
 </div>
 

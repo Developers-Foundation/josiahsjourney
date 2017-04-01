@@ -3,13 +3,13 @@ div {
   font-size: 20px;
 }
 h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 h3 {
   font-size: 2em;
 }
 h4 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 .font-weight-600 {
   font-weight: 600 !important;
@@ -18,10 +18,22 @@ h4 {
   border-bottom: 1px solid #eeeeee;
 }
 .inset {
-  padding: 1vh;
+  padding: 2%;
 }
 .row {
   margin: 0;
+}
+.skyblue {
+  background-color: #87ceeb;
+  color: #ededed !important;
+}
+.title {
+  margin-left: 3vh !important;
+  margin-top: 0 !important;
+}
+.center {
+  align-items: center;
+  display: flex;
 }
 /**********************************************LANDER.PHP**************************************************************/
 .landerImage {
@@ -35,14 +47,63 @@ h4 {
 /**********************************************NAVBAR.PHP**************************************************************/
 .navbar {
   padding: 2vh;
-  text-transform: lowercase;
   -webkit-transition: padding .7s;
   -moz-transition: padding .7s;
   transition: padding .7s;
 }
 /***********************************************ABOUT.PHP**************************************************************/
-.landerAbout {
-  height: 80vh;
+.size {
+  height: 45vh;
+}
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px !important;
+}
+.aboutWords {
+  height: 45vh;
+  align-items: center;
+  display: flex;
+  padding-left: 0 !important;
+}
+.aboutCircle {
+  height: 45vh;
+  align-items: center;
+  display: flex;
+}
+.midAbout1 {
+  margin-right: 10% !important;
+}
+.midAbout2 {
+  margin-right: 15% !important;
+}
+.midAbout3 {
+  margin-right: 20% !important;
+  margin-bottom: 4%;
+}
+.aboutAmount {
+  padding: 15px;
+  background-color: #87ceeb;
+  color: #ededed;
+}
+.circle {
+  align-items: center;
+  display: flex;
+  width: 38vh;
+  height: 38vh;
+  background: #d5aadc;
+  -moz-border-radius: 19vh;
+  -webkit-border-radius: 10vh;
+  border-radius: 19vh;
+  text-align: center;
+  color: #ededed;
+}
+.donateNow {
+  margin-top: 10px;
+  padding: 1%;
+}
+.donateNow a {
+  color: #ededed;
 }
 /************************************************WALK.PHP**************************************************************/
 .theWalk {
@@ -51,12 +112,16 @@ h4 {
   background-image: url('//placebear.com/1000/600');
   background-size: cover;
   background-attachment: fixed;
-  padding: 7vh;
+  padding-right: 50%;
+}
+.theWalk h2 {
+  margin-left: 3vh !important;
+  margin-top: 0 !important;
 }
 .theWalk .walkContent {
   background-color: white !important;
-  opacity: 0.5;
-  height: 56vh;
+  opacity: 0.45;
+  height: 100%;
 }
 /**********************************************EVENTS.PHP**************************************************************/
 .eventSection {

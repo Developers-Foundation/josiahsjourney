@@ -1,12 +1,19 @@
 
 /**********************************************GENERAL*****************************************************************/
 
+@SKYBLUE0: #f0e0f2;
+@SKYBLUE1: #87ceeb;
+@SKYBLUE2: #debce4;
+@SKYBLUE3: #d5aadc;
+@COMP: #d2ebce;
+@CLOUD: #ededed;
+
 div {
   font-size: 20px;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h3 {
@@ -14,7 +21,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .font-weight-600 {
@@ -26,12 +33,28 @@ h4 {
 }
 
 .inset {
-  padding: 1vh;
+  padding: 2%;
 }
 
 .row {
   margin: 0;
 }
+
+.skyblue {
+  background-color: @SKYBLUE1;
+  color: @CLOUD !important;
+}
+
+.title {
+  margin-left: 3vh !important;
+  margin-top: 0 !important;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+}
+
 
 
 /**********************************************LANDER.PHP**************************************************************/
@@ -50,7 +73,6 @@ h4 {
 
 .navbar {
   padding: 2vh;
-  text-transform: lowercase;
 
   -webkit-transition: padding .7s;
   -moz-transition: padding .7s;
@@ -59,8 +81,64 @@ h4 {
 
 /***********************************************ABOUT.PHP**************************************************************/
 
-.landerAbout {
-  height: 80vh;
+.size {
+  height: 45vh;
+}
+
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px !important;
+}
+
+.aboutWords {
+  .size;
+  .center;
+  padding-left: 0 !important;
+}
+
+.aboutCircle {
+  .size;
+  .center;
+}
+
+
+.midAbout1 {
+  margin-right: 10% !important;
+}
+.midAbout2 {
+  margin-right: 15% !important;
+}
+.midAbout3 {
+  margin-right: 20% !important;
+  margin-bottom: 4%;
+}
+
+.aboutAmount {
+  padding: 15px;
+  background-color: @SKYBLUE1;
+  color: @CLOUD;
+}
+
+.circle {
+  .center;
+  width: 38vh;
+  height: 38vh;
+  background: @SKYBLUE3;
+  -moz-border-radius: 19vh;
+  -webkit-border-radius: 10vh;
+  border-radius: 19vh;
+  text-align: center;
+  color: @CLOUD;
+}
+
+.donateNow {
+  margin-top: 10px;
+  padding: 1%;
+
+  a {
+    color: @CLOUD;
+  }
 }
 
 /************************************************WALK.PHP**************************************************************/
@@ -72,13 +150,22 @@ h4 {
   background-image: url('//placebear.com/1000/600');
   background-size: cover;
   background-attachment: fixed;
-  padding: 7vh;
+  padding-right: 50%;
+
+  h2 {
+    .title;
+    margin-top: 0 !important;
+  }
 
   .walkContent {
     background-color: white !important;
-    opacity: 0.5;
-    height: 56vh;
+    opacity: 0.45;
+    height: 100%;
   }
+}
+
+*{
+  //border: 1px solid red !important;
 }
 
 
