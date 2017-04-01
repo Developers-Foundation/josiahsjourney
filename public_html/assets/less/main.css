@@ -14,9 +14,6 @@ h4 {
 .font-weight-600 {
   font-weight: 600 !important;
 }
-.border-bottom {
-  border-bottom: 1px solid #eeeeee;
-}
 .inset {
   padding: 2%;
 }
@@ -35,6 +32,9 @@ h4 {
   align-items: center;
   display: flex;
 }
+* {
+  font-family: 'Quicksand', sans-serif;
+}
 /**********************************************LANDER.PHP**************************************************************/
 .landerImage {
   width: 100%;
@@ -50,6 +50,12 @@ h4 {
   -webkit-transition: padding .7s;
   -moz-transition: padding .7s;
   transition: padding .7s;
+  font-weight: 600 !important;
+}
+#nav {
+  background-image: url("../img/sky.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 /***********************************************ABOUT.PHP**************************************************************/
 .size {
@@ -133,10 +139,10 @@ h4 {
   margin-top: 0 !important;
 }
 .eventSection .eventImage {
-  padding: 2%;
+  padding: 3%;
 }
-.text-white {
-  color: #fff !important;
+.border-bottom {
+  border-bottom: 1px solid black;
 }
 .btn-dark {
   color: #fff;
@@ -148,14 +154,17 @@ h4 {
   color: #ededed !important;
 }
 .eventSection {
-  color: ghostwhite;
+  color: black !important;
   padding: 20px;
-  background-color: #3e3e3b;
+  background-color: #d2ebce;
 }
 /**********************************************FOOTER.PHP**************************************************************/
 .footer {
-  background-color: lightgray;
+  background-color: #87ceeb;
   height: 30%;
+}
+.footer a {
+  color: #ededed;
 }
 .footer .footer-hover {
   list-style: none;
@@ -179,11 +188,11 @@ h4 {
 .arrowNav {
   height: 45px;
   width: 45px;
-  border: 2px solid #bababa;
+  border: 2px solid #5bbce4;
   border-radius: 50%;
   color: white;
   transition: all 0.7s;
-  background-color: lightgray;
+  background-color: #87ceeb;
   cursor: pointer;
   position: absolute;
   z-index: 9999 !important;

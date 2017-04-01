@@ -10,14 +10,14 @@
     <!-- Upcoming event -->
     <div class="eventSection row">
 
-        <div class="row">
+        <div class="row center">
 
             <!-- Main event image -->
             <div class="col-md-6 text-center">
                 <img src="//placebear.com/600/400" class="img-responsive eventImage">
             </div>
 
-            <div class="col-md-6 text-lowercase text-white">
+            <div class="col-md-6 text-lowercase">
 
                 <!-- Date of the event in list form. -->
                 <div class="text-center">
@@ -55,7 +55,7 @@
     <!-- Past events -->
     <div class="eventSection">
 
-        <div class="row text-lowercase text-white">
+        <div class="row text-lowercase">
 
             <div class="col-sm-1 ">
 

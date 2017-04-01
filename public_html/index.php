@@ -37,7 +37,7 @@
 
         <!-- Custom Fonts -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/less/main.css">
 
