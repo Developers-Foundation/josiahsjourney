@@ -184,6 +184,7 @@ h4 {
 }
 .navButtonRow {
   padding-bottom: 22px;
+  background-color: #f0e0f2;
 }
 .arrowNav {
   height: 45px;
@@ -192,7 +193,7 @@ h4 {
   border-radius: 50%;
   color: white;
   transition: all 0.7s;
-  background-color: #87ceeb;
+  background-color: #87ceeb !important;
   cursor: pointer;
   position: absolute;
   z-index: 9999 !important;
@@ -210,4 +211,54 @@ h4 {
 }
 .contactIcon {
   width: 30px;
+}
+/**********************************************CAROUSELTHREE.PHP*******************************************************/
+.carousel {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.carousel .carousel-control {
+  background-image: none;
+}
+.carousel .carousel-indicators {
+  bottom: 5px;
+}
+.carousel .carousel-indicators li {
+  margin: 11px 10px;
+}
+.carousel .carousel-indicators .active {
+  margin-top: 10px;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .three .item.next,
+  .three .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+  }
+  .three .item.prev,
+  .three .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+  }
+}
+.three-carousel .carousel-inner {
+  height: 100%;
+}
+.three-carousel .item {
+  overflow-y: hidden;
+}
+#threeCarousel {
+  background-color: #f0e0f2;
+}
+.carouselViewWindow {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }

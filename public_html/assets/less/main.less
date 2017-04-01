@@ -5,6 +5,7 @@
 @SKYBLUE1: #87ceeb;
 @SKYBLUE2: #debce4;
 @SKYBLUE3: #d5aadc;
+@SKYBLUE4: #3c97bf;
 @COMP: #d2ebce;
 @CLOUD: #ededed;
 
@@ -213,6 +214,7 @@ h4 {
 .eventSection{
   color: black !important;
   padding: 20px;
+  //background-color: lighten(@SKYBLUE4, 20%);
   background-color: @COMP;
 }
 
@@ -253,6 +255,7 @@ h4 {
 
 .navButtonRow {
   padding-bottom: 22px;
+  background-color: @SKYBLUE0;
 }
 
 .arrowNav{
@@ -262,7 +265,7 @@ h4 {
   border-radius: 50%;
   color: white;
   transition: all 0.7s;
-  background-color: @SKYBLUE1;
+  background-color: @SKYBLUE1 !important;
   cursor: pointer;
   position: absolute;
   z-index: 9999 !important;
@@ -286,4 +289,72 @@ h4 {
 
 .contactIcon {
   width: 30px;
+}
+
+
+
+
+/**********************************************CAROUSELTHREE.PHP*******************************************************/
+
+.carousel{
+
+  padding-left: 12%;
+  padding-right: 12%;
+  .carousel-control {
+    background-image: none;
+  }
+
+  .carousel-indicators {
+    bottom: 5px;
+
+    li {
+      margin: 11px 10px;
+    }
+
+    .active {
+      margin-top: 10px;
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -o-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .three .item.next,
+  .three .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+  }
+  .three .item.prev,
+  .three .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+  }
+}
+
+.three-carousel {
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .item {
+    overflow-y: hidden;
+  }
+}
+
+#threeCarousel {
+  background-color: @SKYBLUE0;
+}
+
+.carouselViewWindow {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }

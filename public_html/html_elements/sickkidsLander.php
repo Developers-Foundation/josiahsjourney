@@ -2,9 +2,9 @@
 
 <div class="row sickkidsLander">
     <div class="row">
-        <div class="col-sm-4">
-            <h4>What's new at SickKids</h4>
+        <div class="col-sm-3">
 
+            <h4>What's new at SickKids</h4>
             <!-- Start feedwind code -->
             <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' +
                     ('https:' == document.location.protocol ? 'https://' : 'http://') +
@@ -62,13 +62,30 @@
             </script>
 
             <div style="font-size:10px; text-align:center; width:100%;">
-                <!--Please display the above link in your web page according to Terms of Service.-->
                 <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
             </div>
+        </div>
 
-
-        <div class="col-sm-8">
-
+        <div class="col-sm-9">
+            <div class="row">
+                <h2 class="inset title">Why <a href="http://www.sickkids.ca/" target="_blank">SickKids?</a></h2>
+            </div>
+            <div class="row">
+                The <b>Paediatric Advanced Care Team</b> is dedicated to the professional development of health care providers and volunteers who care for dying children and their families, high quality research and evidence based practice and advocacy on behalf of children and families who face pediatric life limiting illness and conditions.
+                <br>
+                <br>
+                Services provided include:
+                <ul>
+                    <li>inpatient, community and family consultation</li>
+                    <li>collaborative community care</li>
+                    <li>intensive symptom management</li>
+                    <li>psychosocial and spiritual support</li>
+                    <li>music  therapy</li>
+                    <li>bereavement counselling</li>
+                    <li>financial support</li>
+                </ul>
+            </div>
         </div>
     </div>
+
 </div>

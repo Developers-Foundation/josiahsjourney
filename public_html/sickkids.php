@@ -40,6 +40,7 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/less/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
     </head>
 
@@ -51,8 +52,7 @@
             $hasGmap = true;
             include_once "html_elements/lander.php";
             include_once "html_elements/sickkidsLander.php";
-
-
+            include_once "html_elements/carouselThree.php";
             include_once "html_elements/footer.php"
 
         ?>

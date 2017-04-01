@@ -10,7 +10,7 @@
     <!-- Upcoming event -->
     <div class="eventSection row">
 
-        <div class="row center">
+        <div class="row">
 
             <!-- Main event image -->
             <div class="col-md-6 text-center">

@@ -40,6 +40,7 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/less/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
     </head>
 
