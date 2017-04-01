@@ -122,18 +122,18 @@ h4 {
 
 .circle {
   .center;
-  width: 38vh;
-  height: 38vh;
+  width: 36vh;
+  height: 36vh;
   background: @SKYBLUE3;
-  -moz-border-radius: 19vh;
-  -webkit-border-radius: 10vh;
-  border-radius: 19vh;
+  -moz-border-radius: 18vh;
+  -webkit-border-radius: 18vh;
+  border-radius: 18vh;
   text-align: center;
   color: @CLOUD;
 }
 
 .donateNow {
-  margin-top: 10px;
+  margin-top: 3%;
   padding: 1%;
 
   a {
@@ -161,6 +161,7 @@ h4 {
     background-color: white !important;
     opacity: 0.45;
     height: 100%;
+    padding: 3%;
   }
 }
 
@@ -172,8 +173,15 @@ h4 {
 
 /**********************************************EVENTS.PHP**************************************************************/
 
+.events{
+  .title{
+    margin-bottom: 0 !important;
+  }
+}
+
 .eventSection {
   margin: 7vh;
+  margin-top: 0 !important;
 
   .eventImage {
     padding: 2vh;
@@ -189,7 +197,14 @@ h4 {
   color: #fff;
   background-color: #222222;
   border-color: #222222;
+
+  &:hover{
+    background-color: lighten(#222222, 10%);
+    color: @CLOUD !important;
+  }
 }
+
+
 
 .eventSection{
   color: ghostwhite;
