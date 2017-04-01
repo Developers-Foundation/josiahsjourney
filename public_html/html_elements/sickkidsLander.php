@@ -12,9 +12,6 @@
             </script>
             <script type="text/javascript">(function () {
                     var params = {
-
-                        // TODO: alter the below line to the address of your rss feed
-//                        rssmikle_url: "http://www.sickkids.ca/AboutSickKids/Newsroom/?output=rss",
                         rssmikle_url: "http://www.sickkids.ca/AboutSickKids/Newsroom/News.xml",
                         rssmikle_frame_width: "100%",
                         rssmikle_frame_height: "400",
@@ -65,7 +62,8 @@
             </script>
 
             <div style="font-size:10px; text-align:center; width:100%;">
-                <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
+                <!--Please display the above link in your web page according to Terms of Service.-->
+                <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
             </div>
 
 
