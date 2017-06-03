@@ -1,24 +1,13 @@
 
-
-
-<!--
-
-2016: October, 2016. Josiah's Journey was pleased to provide scholarships for four delegates to
-attend the bi-annual International Perinatal Palliative Care Conference hosted by PLIDA in Phoenix, Arizona.
-
--->
-
 <div class="row events">
 
     <div class="row">
         <h2 class="inset title">Upcoming and Past Events</h2>
     </div>
 
-    <!-- Upcoming event -->
     <div class="eventSection row">
         <div class="row">
 
-            <!-- Main event image -->
             <div class="col-md-6 text-center">
                 <img src="./assets/img/SickKids/2016_.png" class="img-responsive eventImage">
             </div>
