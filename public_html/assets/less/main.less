@@ -84,10 +84,6 @@ h4 {
 
 #nav {
   background-color: @SKYBLUE0;
-  //background-image: url("../img/sky.png");
-  //background-image: url("../img/sky.png");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /***********************************************ABOUT.PHP**************************************************************/
@@ -161,20 +157,21 @@ h4 {
   background-image: url('../img/Walk/walkLander.JPG');
   background-size: cover;
   background-attachment: fixed;
-  padding-right: 50%;
+  //padding-right: 50%;
 
   h2 {
     .title;
     margin-top: 0 !important;
   }
-
-  .walkContent {
+  .whiteOpacity{
     background-color: white !important;
     opacity: 0.8;
     height: 100%;
     padding: 3%;
   }
+
 }
+
 
 
 /**********************************************EVENTS.PHP**************************************************************/
@@ -265,29 +262,49 @@ h4 {
   background-color: @SKYBLUE1 !important;
   cursor: pointer;
   position: absolute;
-  z-index: 9999 !important;
+  z-index: 9998 !important;
 }
 
 
 /**********************************************CONTACTUSMODAL.PHP******************************************************/
 
-#mailerForm {
-  width: 100%;
-  padding: 20px;
-}
 
-.contactUsText {
-  color: white;
-}
+#ContactUs{
+  z-index: 9999 !important;
 
-.contactUsContainer {
-  margin-bottom: 20px;
-}
+  #mailerForm {
+    width: 100%;
+    padding: 20px;
+  }
 
-.contactIcon {
-  width: 30px;
-}
+  .contactUsText {
+    color: white;
+  }
 
+  .contactUsContainer {
+    margin-bottom: 20px;
+  }
+
+  #your-name{
+    height: 52px;
+  }
+
+  #email{
+    height: 52px;
+  }
+
+  #your-message{
+    margin-bottom: 10px;
+  }
+
+  .nameInput{
+    margin-bottom: 10px;
+  }
+
+  .contactIcon {
+    width: 30px;
+  }
+}
 
 
 
@@ -373,3 +390,4 @@ h4 {
 .imgCenter{
   margin: auto;
 }
+

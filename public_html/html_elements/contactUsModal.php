@@ -11,7 +11,7 @@
                     <div class="col-md-6 left">
 
                         <!-- Name input -->
-                        <div class="input-group">
+                        <div class="input-group nameInput">
 		                    <span class="input-group-addon">
 			                    <i class="fa fa-user contactIcon"></i>
 		                    </span>
@@ -19,7 +19,7 @@
                         </div>
 
                         <!-- Email input -->
-                        <div class="input-group">
+                        <div class="input-group emailInput">
 		                    <span class="input-group-addon">
 			                    <i class="fa fa-envelope contactIcon"></i>
 		                    </span>
