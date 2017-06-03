@@ -61,7 +61,7 @@ h4 {
 }
 /***********************************************ABOUT.PHP**************************************************************/
 .size {
-  height: 45vh;
+  height: 50vh;
 }
 .space {
   margin-top: 10px;
@@ -69,13 +69,13 @@ h4 {
   padding: 10px !important;
 }
 .aboutWords {
-  height: 45vh;
+  height: 50vh;
   align-items: center;
   display: flex;
   padding-left: 0 !important;
 }
 .aboutCircle {
-  height: 45vh;
+  height: 50vh;
   align-items: center;
   display: flex;
 }
@@ -97,12 +97,12 @@ h4 {
 .circle {
   align-items: center;
   display: flex;
-  width: 36vh;
-  height: 36vh;
+  width: 42vh;
+  height: 42vh;
   background: #d5aadc;
-  -moz-border-radius: 18vh;
-  -webkit-border-radius: 18vh;
-  border-radius: 18vh;
+  -moz-border-radius: 21vh;
+  -webkit-border-radius: 21vh;
+  border-radius: 21vh;
   text-align: center;
   color: #ededed;
 }
