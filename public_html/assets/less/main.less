@@ -8,6 +8,7 @@
 @SKYBLUE4: #3c97bf;
 @COMP: #d2ebce;
 @CLOUD: #ededed;
+@BLK: #3e3e3b;
 
 div {
   font-size: 20px;
@@ -82,7 +83,9 @@ h4 {
 }
 
 #nav {
-  background-image: url("../img/sky.png");
+  background-color: @SKYBLUE0;
+  //background-image: url("../img/sky.png");
+  //background-image: url("../img/sky.png");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -155,7 +158,7 @@ h4 {
 .theWalk {
   width: 100%;
   height: 70%;
-  background-image: url('//placebear.com/1000/600');
+  background-image: url('../img/Walk/walkLander.JPG');
   background-size: cover;
   background-attachment: fixed;
   padding-right: 50%;
@@ -167,16 +170,11 @@ h4 {
 
   .walkContent {
     background-color: white !important;
-    opacity: 0.45;
+    opacity: 0.8;
     height: 100%;
     padding: 3%;
   }
 }
-
-*{
-  //border: 1px solid red !important;
-}
-
 
 
 /**********************************************EVENTS.PHP**************************************************************/
@@ -197,7 +195,7 @@ h4 {
 }
 
 .border-bottom {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .btn-dark {
@@ -212,10 +210,9 @@ h4 {
 }
 
 .eventSection{
-  color: black !important;
+  color: white !important;
   padding: 20px;
-  //background-color: lighten(@SKYBLUE4, 20%);
-  background-color: @COMP;
+  background-color: @BLK;
 }
 
 /**********************************************FOOTER.PHP**************************************************************/
@@ -341,6 +338,8 @@ h4 {
 
 .three-carousel {
 
+  //height: 500px;
+
   .carousel-inner {
     height: 100%;
   }
@@ -357,4 +356,20 @@ h4 {
 .carouselViewWindow {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+/**********************************************JOSIAHABOUT.PHP*********************************************************/
+
+.josiahAbout{
+  //background-image: url('../img/About/footprint.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  //padding-right: 10%;
+  //background-attachment: fixed;
+  //padding-right: 50%;
+}
+
+.imgCenter{
+  margin: auto;
 }

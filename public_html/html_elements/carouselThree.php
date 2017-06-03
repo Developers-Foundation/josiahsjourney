@@ -27,40 +27,40 @@ You may include as many photos as you wish in this carousel.
                     <!-- The active item is the item that will be in focus by default -->
                     <div class="item active">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/500x501/87ceeb" class="img-responsive">
+                            <img src="./assets/img/SickKids/incubator.png" class="img-responsive">
 
-                            <!-- To add captions use the following tag -->
+                            <!-- To add captions use the following tag
                             <div class="carousel-caption">
                                 <h4>Thermal Incubator</h4>
                                 <h4>Purchased 2016</h4>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
 
                     <!-- Entries for each item in the carousel -->
                     <div class="item">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/500x502/87ceeb" class="img-responsive">
+                            <img src="./assets/img/SickKids/2011.png" class="img-responsive">
                         </div>
                     </div>
                     <div class="item">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/500x503/87ceeb" class="img-responsive">
+                            <img src="./assets/img/SickKids/2012.png" class="img-responsive">
                         </div>
                     </div>
                     <div class="item">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/500x504/87ceeb" class="img-responsive">
+                            <img src="./assets/img/SickKids/2013.png" class="img-responsive">
                         </div>
                     </div>
                     <div class="item">
                         <div class="col-md-4">
-                                <img src="http://placehold.it/500x505/87ceeb" class="img-responsive">
+                                <img src="./assets/img/SickKids/2014.png" class="img-responsive">
                         </div>
                     </div>
                     <div class="item">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/500x506/87ceeb" class="img-responsive">
+                            <img src="./assets/img/SickKids/2016.png" class="img-responsive">
                         </div>
                     </div>
                 </div>

@@ -53,7 +53,7 @@ h4 {
   font-weight: 600 !important;
 }
 #nav {
-  background-image: url("../img/sky.png");
+  background-color: #f0e0f2;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -115,7 +115,7 @@ h4 {
 .theWalk {
   width: 100%;
   height: 70%;
-  background-image: url('//placebear.com/1000/600');
+  background-image: url('../img/Walk/walkLander.JPG');
   background-size: cover;
   background-attachment: fixed;
   padding-right: 50%;
@@ -126,7 +126,7 @@ h4 {
 }
 .theWalk .walkContent {
   background-color: white !important;
-  opacity: 0.45;
+  opacity: 0.8;
   height: 100%;
   padding: 3%;
 }
@@ -142,7 +142,7 @@ h4 {
   padding: 3%;
 }
 .border-bottom {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 .btn-dark {
   color: #fff;
@@ -154,9 +154,9 @@ h4 {
   color: #ededed !important;
 }
 .eventSection {
-  color: black !important;
+  color: white !important;
   padding: 20px;
-  background-color: #d2ebce;
+  background-color: #3e3e3b;
 }
 /**********************************************FOOTER.PHP**************************************************************/
 .footer {
@@ -261,4 +261,13 @@ h4 {
 .carouselViewWindow {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+/**********************************************JOSIAHABOUT.PHP*********************************************************/
+.josiahAbout {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.imgCenter {
+  margin: auto;
 }
