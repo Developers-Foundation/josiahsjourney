@@ -263,10 +263,13 @@ h4 {
   margin-bottom: 2%;
 }
 /**********************************************JOSIAHABOUT.PHP*********************************************************/
-.josiahAbout {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
+.aboutInfo {
+  border-top: solid 20px #87ceeb;
+  border-bottom: solid 20px #87ceeb;
+}
+.aboutInfo .topBottomBorder {
+  border-top: solid 2px #87ceeb;
+  border-bottom: solid 2px #87ceeb;
 }
 .imgCenter {
   margin: auto;
