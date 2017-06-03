@@ -17,6 +17,10 @@ h4 {
 .inset {
   padding: 2%;
 }
+.inset2x {
+  padding-left: 8%;
+  padding-right: 8%;
+}
 .row {
   margin: 0;
 }
@@ -113,6 +117,7 @@ h4 {
 .theWalk {
   width: 100%;
   height: 70%;
+  min-height: 400px;
   background-image: url('../img/Walk/walkLander.JPG');
   background-size: cover;
   background-attachment: fixed;
@@ -126,6 +131,7 @@ h4 {
   opacity: 0.8;
   height: 100%;
   padding: 3%;
+  min-height: 400px;
 }
 /**********************************************EVENTS.PHP**************************************************************/
 .events .title {
@@ -136,7 +142,8 @@ h4 {
   margin-top: 0 !important;
 }
 .eventSection .eventImage {
-  padding: 3%;
+  margin: auto;
+  vertical-align: middle;
 }
 .border-bottom {
   border-bottom: 1px solid white;
@@ -193,7 +200,7 @@ h4 {
   background-color: #87ceeb !important;
   cursor: pointer;
   position: absolute;
-  z-index: 9998 !important;
+  z-index: 50 !important;
 }
 /**********************************************CONTACTUSMODAL.PHP******************************************************/
 #ContactUs {
