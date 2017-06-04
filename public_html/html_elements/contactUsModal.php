@@ -40,6 +40,13 @@
 
                 </form>
             </div>
+
+            <div class="row text-center space">
+                <h4>Or contact us directly:</h4><br>
+                <h5>(519) 654-2564</h5><br>
+                <h5>shari.morash@gmail.com</h5>
+
+            </div>
         </div>
     </div>
 </div>
