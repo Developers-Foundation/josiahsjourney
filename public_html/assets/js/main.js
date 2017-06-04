@@ -80,11 +80,23 @@ $(function () {
         });
     });
 
+    $('#eventsBtn').on('click', function () {
+        this.innerHTML = ((this.innerHTML == 'More Events') ? 'Less Events' : 'More Events');
+    });
 
-
+    resizeEvent();
 
 });
 
+$(function jQueryResize (){
+    $(window).resize(function(){
+        resizeEvent()
+    })
+});
+
+function resizeEvent(){
+    $('#top').css('left', String($(this).width() / 2 - 45/2)+'px');
+}
 
 
 

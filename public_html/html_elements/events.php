@@ -97,13 +97,15 @@
         </div>
     </div>
 
-    <?php
-    $yr = ['2014', '2013', '2012', '2011'];
-    $mnths = ['jun', 'jun', 'jul', 'jul'];
-    $days = ['01', '02', '15', '24'];
-    $amt = ['​$39,651.40​', '​​$40,619.24', '$25,811.35', '$20,855.43' ];
-    for($i = 0; $i < sizeof($yr); $i++){
-        echo ("
+    <div class="collapse" id="eventsEtc">
+
+        <?php
+        $yr = ['2014', '2013', '2012', '2011'];
+        $mnths = ['jun', 'jun', 'jul', 'jul'];
+        $days = ['01', '02', '15', '24'];
+        $amt = ['​$39,651.40​', '​​$40,619.24', '$25,811.35', '$20,855.43' ];
+        for($i = 0; $i < sizeof($yr); $i++){
+            echo ("
         <div class='eventSection'><div class='row text-lowercase'>
             <div class='col-sm-1'><div class='text-center'>
                     <ul class='list-unstyled'>
@@ -120,7 +122,13 @@
                 <p>" . $amt[$i] . "​ raised for the Neonatal Intensive Care Unit (NICU) at Children's Hospital, London.</p>
             </div>
         </div></div>");
-    }
-    ?>
+        }
+        ?>
+    </div>
+
+    <div class="row text-center">
+        <button class="btn btn-dark space" id="eventsBtn" data-target="#eventsEtc" data-toggle="collapse">More Events</button>
+    </div>
+
 
 </div>

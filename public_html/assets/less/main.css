@@ -157,10 +157,16 @@ h4 {
   background-color: #3c3c3c;
   color: #ededed !important;
 }
+.btn-dark:focus {
+  color: white !important;
+}
 .eventSection {
   color: white !important;
   padding: 20px;
   background-color: #3e3e3b;
+}
+#eventsBtn {
+  width: 175px;
 }
 /**********************************************FOOTER.PHP**************************************************************/
 .footer {

@@ -13,6 +13,8 @@
                     This year we have something different in the works so stay tuned!
                 </div>
 
+                <!-- This section can be used for registrations/more info links for future walks. -->
+
                 <!--
                 <div class="row">
                     <h3 class="inset text-center"><b>The 2017 walk is the weekend of July 3.</b></h3>
