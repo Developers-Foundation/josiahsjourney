@@ -12,11 +12,15 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="index.php" id="mobileNavLbl">Josiah's Journey</a>
+<!--            <img class="img-responsive logoImage" src="./assets/img/Logos/glogo.png"-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navTarget">
             <ul class="nav navbar-nav navbar-right">
+<!--                <li class="text-left">-->
+<!--                    <img class="img-responsive logoImage" src="./assets/img/Logos/glogo.png"-->
+<!--                </li>-->
                 <li>
                     <a href="index.php">Home</a>
                 </li>

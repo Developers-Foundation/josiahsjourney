@@ -4,6 +4,15 @@
 
     <div class="row">
         <h2 class="inset title">Welcome to Josiah's Journey</h2>
+<!--        <div class="col-md-2">-->
+<!--            <h2 class="inset title">Welcome to,</h2>-->
+<!---->
+<!--        </div>-->
+<!--        <div class="col-md-10 text-left">-->
+<!--            <img class="img-responsive" src="./assets/img/Logos/glogo.png"-->
+<!---->
+<!--        </div>-->
+
     </div>
 
     <div class="row">
