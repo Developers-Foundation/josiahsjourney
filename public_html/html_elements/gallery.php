@@ -1,11 +1,17 @@
 
+<div class="row skyblue text-center sponsorsPre">
+    <h3>Our walk wouldn't be what it is without our amazing sponsors.<br><br>
+    Thank you all so much for your <span class="darkblue">kindness.</span></h3>
+</div>
+
+
 <div class="section gallery-content" id="gallery1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="gallery">
 
-                    <div class="row text-center">
+                    <div class="row text-center skyblue space2">
                         <h4>Platinum</h4>
                     </div>
 
@@ -29,7 +35,7 @@
                         </div>
                     </div>
 
-                    <div class="row text-center">
+                    <div class="row text-center skyblue space2">
                         <h4>Gold</h4>
                     </div>
 
@@ -53,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="row text-center">
+                    <div class="row text-center skyblue space2">
                         <h4>Silver</h4>
                     </div>
 
@@ -74,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="row text-center">
+                    <div class="row text-center skyblue space2">
                         <h4>Bronze</h4>
                     </div>
 
